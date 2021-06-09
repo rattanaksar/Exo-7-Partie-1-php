@@ -1,3 +1,8 @@
+<?php
+        $lastName= 'Sar';
+        $firstName= 'Rattanak';
+        $age = 38;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,11 +13,9 @@
 </head>
 <body>
     <h1>Exo 7 Partie : Les variables PHP</h1>
-    <?php
-        $lastName= "Sar";
-        $firstName= "Rattanak";
-        $age = 38;
-        echo "Je m'appelle " .$lastName. " " .$firstName. " et j'ai " .$age. " ans <br>";
+    <p>
+    <?='Je m\'appelle' .$lastName. ' ' .$firstName. ' et j\'ai ' .$age. 'ans';
     ?>
+    </p>
 </body>
 </html>
