@@ -13,9 +13,6 @@
 </head>
 <body>
     <h1>Exo 7 Partie : Les variables PHP</h1>
-    <p>
-    <?='Je m\'appelle ' .$lastName. ' ' .$firstName. ' et j\'ai ' .$age. 'ans';
-    ?>
-    </p>
+    <p> Je m'appelle <?=$lastName?> <?=$firstName?> et j'ai <?=$age?> ans</p>
 </body>
 </html>
